@@ -51,8 +51,8 @@ jobs:
         env: [{ STATIC_DEPS: true }, { STATIC_DEPS: false }]
 
         include:
-          #- os: ubuntu-22.04
-          #  python-version: "3.14-dev"
+          - os: ubuntu-22.04
+            python-version: "3.14-dev"
           #  allowed_failure: true
 
           - os: ubuntu-latest
